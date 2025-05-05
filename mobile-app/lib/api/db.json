@@ -1,0 +1,47 @@
+ {"id": "prod_1",
+    "title": "Apple Phones",
+    "description": "A high-quality phones from Xiaomi.",
+    "category": "phones",
+    "variants": [
+      {
+        "id": "var1",
+        "color": "orange",
+        "size": "6.5-inch",
+        "weight": "180g",
+        "brand": "Xiaomi",
+        "storage": "128GB"
+      },
+      {
+        "id": "var2",
+        "color": "black",
+        "size": "6.8-inch",
+        "weight": "180g",
+        "brand": "Samsung",
+        "storage": "64GB"
+      },
+      {
+        "id": "var3",
+        "color": "red",
+        "size": "6.8-inch",
+        "weight": "150g",
+        "brand": "Google",
+        "storage": "512GB"
+      },
+      {
+        "id": "var4",
+        "color": "yellow",
+        "size": "6.8-inch",
+        "weight": "150g",
+        "brand": "Google",
+        "storage": "512GB"
+      },
+      {
+        "id": "var5",
+        "color": "blue",
+        "size": "6.8-inch",
+        "weight": "150g",
+        "brand": "Google",
+        "storage": "512GB"
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+name: plaza_ng
+description: "Plaza.ng Mobile App"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  introduction_screen: ^3.1.14
+  flutter_native_splash: ^2.4.4
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  logging: ^1.0.2
+  provider: ^6.0.0
+  http: ^0.13.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/core/
+
+flutter_native_splash:
+  color: "#3c1d6d"
+  icon_background_color: "#3c1d6d"
+  image: "assets/core/white-logo.png"
+  # branding_bottom_padding: 48
+  android_12:
+    color: "#3c1d6d"
+    icon_background_color: "#3c1d6d"
+    # branding: "assets/core/white-word.png"
+    # branding_bottom_padding_android: 48
+    # branding_bottom_padding_ios: 48
+  fullscreen: true
